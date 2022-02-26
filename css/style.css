@@ -1,0 +1,598 @@
+/* &display=swap*/
+@import url(null.css);
+
+@import url("https://fonts.googleapis.com/css?family=Alegreya+SC:400,italic,700,700italic,800,800italic,900,900italic&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,600,700,800,900,italic,600italic,700italic,800italic,900italic&display=swap");
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Alegreya SC', serif; */
+
+body {
+	font-family: "Playfair Display", serif;
+	color: #fff;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	background: url("../img/Dota_logo.jpg") 0 0 / cover fixed;
+}
+.container {
+}
+.header {
+}
+.title {
+	font-size: 85px;
+	text-align: center;
+	letter-spacing: 10px;
+	margin: 30px 0px;
+	color: rgb(0, 0, 0);
+}
+.block__menu {
+	margin: 0px 0px 30px 0px;
+}
+.menu {
+	margin: 0 auto;
+	width: 1000px;
+	height: 50px;
+}
+.list {
+}
+.list-menu {
+	display: inline-block;
+	background-color: rgb(30, 31, 63);
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: #aeedf8;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 90px;
+}
+.list-menu:hover {
+	background-color: rgb(43, 5, 78);
+	color: rgb(255, 251, 1);
+}
+
+.list-menu:active {
+	background-color: rgb(63, 36, 5);
+	color: rgb(247, 10, 215);
+	box-shadow: 0px 0px 4px 4px #000, 0px 0px 6px 6px rgb(236, 225, 225);
+}
+
+.text-info {
+	display: none;
+}
+.text-info:target {
+	display: block;
+}
+.block {
+	margin: 0px 0px 30px 0px;
+}
+
+.block__info2 {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+.text-info {
+	color: rgb(37, 8, 8);
+	font-family: "Alegreya SC", serif;
+	font-size: 20px;
+	line-height: 1.3;
+	font-weight: 700;
+	padding: 20px;
+	text-shadow: 0px 0px 12px rgb(255, 255, 255);
+	border-radius: 50px;
+	background: url("../img/Dota_2.jpg") center / cover no-repeat;
+}
+
+.text-info:hover {
+	color: rgb(0, 0, 0);
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	line-height: 1.3;
+	font-weight: 700;
+	padding: 30px;
+	text-shadow: 0px 0px 15px rgb(255, 255, 255);
+	border-radius: 100px;
+	background: url("../img/lancer.jpg") 0 0 / cover no-repeat;
+}
+
+.heroes {
+	margin: 0px 0px 50px 0px;
+}
+
+.heroes__choice {
+	display: none;
+}
+
+.heroes__choice:target {
+	display: block;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+/* ============обычный стиль================= */
+.phantom__assassin {
+	margin: 0px 0px 50px 0px;
+}
+.morta {
+	padding: 23px 0px 0px 0px;
+}
+.title-morta {
+	font-family: "Alegreya SC", serif;
+	color: rgb(255, 203, 30);
+	font-size: 55px;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.list-morta {
+	display: inline-block;
+	max-width: 1500px;
+	padding: 20px;
+	color: rgb(77, 241, 200);
+}
+.morta-style1 {
+	font-size: 30px;
+	background: url("../img/Stifling_Dagger.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.morta-style2 {
+	font-size: 30px;
+	background: url("../img/Phantom_Strike_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.morta-style3 {
+	font-size: 30px;
+	background: url("../img/Blur.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.morta-style4 {
+	font-size: 30px;
+	background: url("../img/Coup_de_Grace.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+}
+
+/* ===============стиль hover ========= */
+
+.phantom__assassin:hover {
+	border: 5px solid red;
+	padding: 30px;
+	border-radius: 25%;
+	background: url("../img/morta_fon.jpg") center / cover no-repeat;
+	box-shadow: 0px 0px 30px 30px #000;
+}
+
+/* ========Queen */
+
+.queen__of__pain {
+	margin: 0px 0px 50px 0px;
+}
+.queen {
+	padding: 23px 0px 0px 0px;
+}
+.title-queen {
+	font-family: "Alegreya SC", serif;
+	color: rgb(255, 125, 164);
+	font-size: 55px;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.list-queen {
+	display: inline-block;
+	max-width: 1500px;
+	padding: 20px;
+	color: rgb(248, 174, 255);
+}
+.queen-style1 {
+	font-size: 30px;
+	background: url("../img/Shadow_Strike_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.queen-style2 {
+	font-size: 30px;
+	background: url("../img/BLink.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.queen-style3 {
+	font-size: 30px;
+	background: url("../img/Scream_of_Pain_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.queen-style4 {
+	font-size: 30px;
+	background: url("../img/Sonic_Wave_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+}
+
+/* ===============стиль hover ========= */
+
+.queen__of__pain:hover {
+	border: 7px solid rgb(114, 54, 15);
+	padding: 30px;
+	border-radius: 25%;
+	background: url("../img/Queen_of_pain.jpg") center / cover no-repeat;
+	box-shadow: 0px 0px 30px 30px rgb(229, 216, 186);
+}
+
+/* ==============necrophos=========== */
+
+.necrophos__block {
+	margin: 0px 0px 50px 0px;
+}
+.necrophos {
+	padding: 23px 0px 0px 0px;
+	width: 300px;
+	height: 300px;
+}
+.title-necrophos {
+	font-family: "Alegreya SC", serif;
+	color: rgb(109, 231, 120);
+	font-size: 55px;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.list-necrophos {
+	display: inline-block;
+	max-width: 1500px;
+	padding: 20px;
+	color: rgb(248, 218, 81);
+}
+.necrophos-style1 {
+	font-size: 30px;
+	background: url("../img/Death_Pulse_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.necrophos-style2 {
+	font-size: 30px;
+	background: url("../img/Ghost_Shroud_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.necrophos-style3 {
+	font-size: 30px;
+	background: url("../img/Heartstopper_Aura_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.necrophos-style4 {
+	font-size: 30px;
+	background: url("../img/ReaperScythe_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+}
+
+/* ===============стиль hover ========= */
+
+.necrophos__block:hover {
+	border: 7px solid rgb(23, 54, 20);
+	padding: 30px;
+	border-radius: 25%;
+	background: url("../img/necrophos_fon.jpg") center / cover no-repeat;
+	box-shadow: 0px 0px 30px 30px rgb(191, 194, 50);
+}
+
+/* ===========juggernaut========= */
+
+.juggernaut__block {
+	margin: 0px 0px 50px 0px;
+}
+.juggernaut {
+	padding: 23px 0px 0px 0px;
+	width: 300px;
+	height: 300px;
+}
+.title-juggernaut {
+	font-family: "Alegreya SC", serif;
+	color: rgb(218, 0, 0);
+	font-size: 55px;
+	text-align: center;
+	margin: 0px 0px 50px 0px;
+}
+.list-juggernaut {
+	display: inline-block;
+	max-width: 1500px;
+	padding: 20px;
+	color: rgb(21, 255, 0);
+}
+.juggernaut-style1 {
+	font-size: 30px;
+	background: url("../img/Blade_Fury_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.juggernaut-style2 {
+	font-size: 30px;
+	background: url("../img/Healing_Ward_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.juggernaut-style3 {
+	font-size: 30px;
+	background: url("../img/Blade_Dance_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+	margin: 0px 0px 30px 0px;
+}
+.juggernaut-style4 {
+	font-size: 30px;
+	background: url("../img/Omnislash_icon.png") 0px 4px / 35px no-repeat;
+	padding: 0px 0px 0px 50px;
+}
+
+.link-up {
+	display: block;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 44px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #fbff00;
+	padding: 0px 22px;
+	width: 200px;
+	height: 44px;
+	background-color: #000;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.link-up:visited {
+	color: rgb(10, 192, 238);
+	background-color: rgb(65, 10, 10);
+}
+
+.link-up:active {
+	color: rgb(225, 21, 243);
+	background-color: rgb(6, 51, 12);
+}
+
+/* ===============стиль hover ========= */
+
+.juggernaut__block:hover {
+	border: 7px solid rgb(190, 128, 202);
+	padding: 30px;
+	border-radius: 25%;
+	background: url("../img/Juggernaut_fon (1).jpg") center / cover no-repeat;
+	box-shadow: 0px 0px 30px 30px rgb(204, 24, 114);
+}
+
+/* =============Характеристики========== */
+
+.characteristic {
+	display: none;
+}
+.characteristic:target {
+	display: block;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.title-history {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: rgb(213, 233, 141);
+	letter-spacing: 3px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+}
+
+.history {
+	font-family: "Alegreya SC", serif;
+	font-weight: 700;
+	font-size: 17px;
+	font-style: italic;
+	color: yellow;
+	padding: 10px;
+}
+
+.history2 {
+	font-weight: 600;
+	font-size: 17px;
+	font-style: italic;
+	padding: 10px;
+	letter-spacing: 1px;
+	color: rgb(0, 243, 0);
+}
+
+.history3 {
+	font-family: "Alegreya SC", serif;
+	font-weight: 900;
+	font-size: 20px;
+	font-style: italic;
+	color: rgb(0, 245, 253);
+	padding: 10px;
+	letter-spacing: 2px;
+}
+
+.history4 {
+	font-weight: 900;
+	font-size: 23px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	color: rgb(223, 0, 243);
+}
+
+.history5 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	font-size: 28px;
+	padding: 10px;
+	text-transform: lowercase;
+	color: rgb(243, 0, 101);
+}
+.block__text p:first-child {
+	background-color: #000;
+}
+
+.block__text p:last-of-type {
+	background-color: blue;
+}
+
+.block__text p:nth-child(2) {
+	background-color: grey;
+}
+
+.block__text p:nth-child(4) {
+	background-color: rgb(63, 62, 3);
+}
+
+.block__text {
+	margin: 0px 0px 30px 0px;
+	background-color: rgb(41, 12, 12);
+}
+
+.history::first-line {
+	color: #fff;
+}
+.history2::first-letter {
+	font-size: 30px;
+}
+.block__facts {
+	margin: 0px 0px 30px 0px;
+}
+.title-fact {
+	font-size: 55px;
+	color: rgb(216, 213, 16);
+	text-align: center;
+	margin: 0px 0px 30px 0px;
+}
+
+.title-fact::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 100px;
+	background-color: rgb(216, 213, 16);
+	margin: 0 auto;
+}
+
+.fact-menu {
+	margin: 0px 0px 25px 0px;
+}
+
+.fact-list {
+	padding: 0px 0px 0px 20px;
+	font-size: 25px;
+	margin: 0px 0px 20px 0px;
+	color: rgb(12, 219, 247);
+	text-shadow: 0px 0px 8px rgb(2, 39, 46);
+}
+
+.fact-list::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/565656565656656566.png") 0 0 / 30px no-repeat;
+	margin: 0px 0px -7px 0px;
+	width: 30px;
+	height: 30px;
+}
+
+.fact-list:nth-child(odd) {
+	color: rgb(18, 243, 18);
+	font-family: "Oswald", sans-serif;
+}
+
+.link-up2 {
+	display: block;
+	font-family: "Alegreya SC", serif;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 44px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #0400ff;
+	padding: 0px 22px;
+	width: 200px;
+	height: 44px;
+	background-color: rgb(59, 1, 1);
+	border-radius: 20px;
+	margin: 0 auto;
+}
+
+.link-up2:visited {
+	color: rgb(255, 251, 0);
+	background-color: rgb(18, 1, 49);
+}
+
+.link-up2:active {
+	color: rgb(255, 6, 6);
+	background-color: rgb(54, 51, 19);
+}
+
+.skills {
+	display: none;
+	margin: 0px 0px 20px 0px;
+}
+
+.skills:target {
+	display: block;
+	max-width: 1900px;
+}
+
+.title-skills {
+	margin: 0px 0px 50px 0px;
+	font-size: 50px;
+	color: rgb(45, 202, 223);
+	text-shadow: 3px 3px 3px rgb(149, 2, 218);
+	text-align: center;
+}
+
+.title-skills::after {
+	content: "";
+	display: block;
+	height: 10px;
+	width: 1000px;
+	background-color: rgb(216, 213, 16);
+	margin: 0 auto;
+}
+
+.skill,
+.skill-1,
+.skill-2,
+.skill-3,
+.skill-4,
+.skill-5 {
+	width: 600px;
+	height: 400px;
+	opacity: 0;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.skill__heroes {
+	padding: 10px;
+}
+
+.skill:hover,
+.skill-1:hover,
+.skill-2:hover,
+.skill-3:hover,
+.skill-4:hover,
+.skill-5:hover {
+	opacity: 1;
+	border: 7px solid #000;
+	box-shadow: 0px 0px 5px 5px #fff;
+}
+
+.link-skill-heroes {
+	display: block;
+	font-size: 40px;
+	line-height: 44px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #fa9e73;
+	padding: 0px 22px;
+	width: 250px;
+	height: 44px;
+	background-color: rgb(59, 1, 1);
+	border-radius: 20px;
+	margin: 0 auto;
+}
